@@ -232,14 +232,14 @@
   position: absolute;
 }
 
-#closeBtn {
+.xBtn {
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
   height: 100%;
 }
 
-#closeBtn:hover .fa-xmark {
+.xBtn:hover .fa-xmark {
   opacity: 1;
 }
 
