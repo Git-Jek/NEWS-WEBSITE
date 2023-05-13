@@ -151,6 +151,14 @@
     display: block;
 }
 
+.toggleDisplay {
+    display: block;
+}
+
+.toggleBtn {
+    opacity: 1 !important;
+}
+
 .fa-check {
     @include mixins.circle(variables.$dark-blue);
     padding: 5px;
@@ -257,7 +265,7 @@
 }
 
 .fa-heart:hover {
-    color: variables.$blue;
+    color: variables.$blue !important;
 }
 
 .footer-container {

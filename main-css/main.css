@@ -170,6 +170,14 @@
   display: block;
 }
 
+.toggleDisplay {
+  display: block;
+}
+
+.toggleBtn {
+  opacity: 1 !important;
+}
+
 .fa-check {
   border: 2px solid #192140;
   border-radius: 50%;
@@ -279,7 +287,7 @@
 }
 
 .fa-heart:hover {
-  color: #0266FF;
+  color: #0266FF !important;
 }
 
 .footer-container {
