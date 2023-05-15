@@ -25,6 +25,11 @@
     margin-left: 30px;
 }
 
+.right-side p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #reviews {
     margin: 0px 35px 0px 0px;
 }
@@ -171,6 +176,7 @@
 
 .fa-check:hover {
     opacity: 0.5;
+    cursor: pointer;
 }
 
 .news-1:hover{
@@ -233,6 +239,7 @@
 .fa-xmark:hover {
     color: variables.$blue;
     border-color: variables.$blue;
+    cursor: pointer;
 }
 
 .banner h2 {
@@ -266,6 +273,7 @@
 
 .fa-heart:hover {
     color: variables.$blue !important;
+    cursor: pointer;
 }
 
 .footer-container {
@@ -296,6 +304,11 @@
 .blog-menu ul, .ourCourses-menu ul {
     @include mixins.horizontal-list();
     margin-left: 30px;
+}
+
+.blog-menu li:hover, .ourCourses-menu li:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 .ourCourses-text {
@@ -337,6 +350,11 @@
     padding: 6px;  
 }
 
+.icon-background i:hover {
+    color: variables.$blue;
+    cursor: pointer;
+}
+
 .legality {
     @include mixins.flex-end(85px);
     @include mixins.box-5();
@@ -348,6 +366,11 @@
 
 .legality p {
     margin-left: 10px;
+}
+
+.legality p:hover {
+    text-decoration: underline;
+    cursor: pointer;
 }
 
 #menuBar {
