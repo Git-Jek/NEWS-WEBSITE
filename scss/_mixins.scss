@@ -21,12 +21,6 @@
     }
 }
 
-@mixin absolute($top, $left) {
-    position: absolute;
-    margin-top: $top;
-    margin-left: $left;
-}
-
 @mixin capsule($color) {
     border: 1px solid $color;
     border-radius: 75px 75px;

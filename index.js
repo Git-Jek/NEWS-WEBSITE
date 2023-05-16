@@ -2,7 +2,7 @@ const checkIcon = document.querySelectorAll('.fa-check');
 const checkDisplay = document.querySelectorAll('.checkBtn-display');
 const heartIcon = document.querySelectorAll('.fa-heart');
 const xIcon = document.querySelectorAll('.fa-xmark');
-const logo = document.querySelectorAll('.refocus-logo');
+const logo = document.getElementById('logo')
 
 checkIcon.forEach((check, index) => {
     check.addEventListener('click', () => {
@@ -30,5 +30,5 @@ xIcon.forEach(xmark => {
 })
 
 logo.addEventListener ('click', () => {
-    
+    location.reload();
 })

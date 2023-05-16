@@ -15,6 +15,17 @@
   padding-inline: 70px;
 }
 
+.left-side {
+  font-size: 24px;
+  font-weight: 700;
+  color: #DCF10D;
+  letter-spacing: 0.1em;
+}
+
+.left-side:hover {
+  cursor: pointer;
+}
+
 .right-side {
   margin-left: auto;
   display: flex;
@@ -34,42 +45,6 @@
 
 #reviews {
   margin: 0px 35px 0px 0px;
-}
-
-#upper-left {
-  position: absolute;
-  margin-top: 6.93px;
-  margin-left: 0;
-}
-
-#upper-right {
-  position: absolute;
-  margin-top: 6.93px;
-  margin-left: 9.37px;
-}
-
-#lower-left {
-  position: absolute;
-  margin-top: 16.32px;
-  margin-left: 0;
-}
-
-#lower-right {
-  position: absolute;
-  margin-top: 16.32px;
-  margin-left: 9.37px;
-}
-
-.c {
-  margin-left: 21px;
-}
-
-.refocus-logo {
-  font-size: 0;
-}
-
-.c, .u, .s {
-  margin-right: 1px;
 }
 
 #blog {
@@ -96,7 +71,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 350px 350px 350px;
-  gap: 50px;
+  gap: 40px;
 }
 
 .news-1, .news-2, .news-3, .news-4, .news-5, .news-6, .news-7, .news-8, .news-9 {
@@ -403,7 +378,7 @@
 }
 
 .legality {
-  margin-left: 85px;
+  margin-left: 225px;
   display: flex;
   align-items: flex-end;
   grid-column: 2/3;
@@ -461,8 +436,49 @@
   .blog-menu p, .ourCourses-menu p, .legality p {
     margin-left: 0px;
   }
-  #credential {
-    display: none;
+  .blog-menu {
+    padding-right: 80px;
+  }
+  .blog-menu ul, .ourCourses-menu ul {
+    margin-left: 0px;
+  }
+  .blog-menu ul li {
+    padding-bottom: 10px;
+  }
+  .blog-menu, .ourCourses-menu {
+    margin-bottom: 50px;
+  }
+  .followUs-text {
+    color: #9D9DB5;
+  }
+  .legality {
+    margin-top: 50px;
+  }
+  .legality :nth-child(n+3) {
+    margin-left: 10px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 689px) {
+  .header-container {
+    padding-inline: 70px;
+  }
+  .grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 350px 350px 350px 350px 350px;
+  }
+  .footer-container {
+    width: 100%;
+    display: block;
+    height: 100%;
+    background-color: #10131C;
+    padding: 30px 0px 30px 10px;
+  }
+  .blog-text, .blog-menu, .followUs-text, .legality, .ourCourses-menu, .ourCourses-text, .socialNetwork {
+    margin: 20px;
+  }
+  .blog-menu p, .ourCourses-menu p, .legality p {
+    margin-left: 0px;
   }
   .blog-menu {
     padding-right: 80px;
@@ -484,5 +500,41 @@
   }
   .legality :nth-child(n+3) {
     margin-left: 10px;
+  }
+  .news-1 {
+    grid-column: 1/2;
+    grid-row: 1/2;
+  }
+  .news-2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+  }
+  .news-3 {
+    grid-column: 1/2;
+    grid-row: 2/3;
+  }
+  .news-4 {
+    grid-column: 2/3;
+    grid-row: 2/3;
+  }
+  .news-5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .news-6 {
+    grid-column: 2/3;
+    grid-row: 3/4;
+  }
+  .news-7 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+  .news-8 {
+    grid-column: 2/3;
+    grid-row: 4/5;
+  }
+  .news-9 {
+    grid-column: 1/2;
+    grid-row: 5/6;
   }
 }/*# sourceMappingURL=main.css.map */
